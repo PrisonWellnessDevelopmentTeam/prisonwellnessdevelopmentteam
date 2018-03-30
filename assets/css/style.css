@@ -4,6 +4,48 @@ body {
 	background-attachment: fixed;
 }
 
+h2 {
+	font-size: 36px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+li {
+	font-size: 20px;
+	padding-left: 30px;
+}
+
+ul {
+	padding-left: 30px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.indent {
+	text-indent: 40px;
+}
+
+.double-indent {
+	padding-left: 20px;
+}
+
+.fa-circle,
+.fa-dot-circle {
+	font-size: 5px;
+	vertical-align: middle;
+}
 
 /* ↓ Jumbotron Styling ↓ */
 	.jumbotron {
@@ -54,11 +96,6 @@ body {
 		border-color: #BAFFC4;
 	}
 
-	.fa-sun {
-		font-size: 200px;
-		color: yellow;
-	}
-
 	.fa-bars {
 		font-size: 30px;
 		color: #14BCE2;
@@ -88,6 +125,19 @@ body {
 	}
 /* ↑ Navbar Styling ↑ */
 
-.sup {
-	padding-bottom: 900px;
-}
+
+/* ↓ Content Styling ↓ */
+
+	.content-container {
+		margin-top: 30px;
+	}
+
+	.main-content {
+		padding: 20px;
+		border-radius: 20px;
+		background-color: #4C4C4C;
+		color: #14BCE2;
+	}
+/* ↑ Content Styling ↑ */
+
+
