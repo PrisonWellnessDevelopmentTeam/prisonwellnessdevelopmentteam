@@ -85,6 +85,7 @@ ul {
 		padding: 20px;
 		background-color: #4C4C4C;
 		font-size: 25px;
+		border-bottom: 4px solid #5D5D5D;
 	}
 
 	.navbar-toggler {
